@@ -214,7 +214,7 @@ public interface AsyncHttpClient extends Closeable {
     /**
      * Prepare an HTTP client DELETE request.
      *
-     * @param url A well formed URL.
+     * @param url A well formed URL.asda
      * @return {@link RequestBuilder}
      */
     BoundRequestBuilder prepareDelete(String url);
